@@ -1,0 +1,23 @@
+.form{
+    width: 60%;
+    background-color: white;
+    margin: auto;
+    padding:0 0.7rem;
+    box-shadow: 3px 3px 3px ;
+ 
+}
+.col-4{
+    display: block;
+    border: 1px solid black;
+    padding:  2rem;
+    align-items: center;
+  
+}
+.col-12{
+    border: 1px solid black;
+    padding:  2rem;
+}
+
+img{
+    width: 5rem;
+}

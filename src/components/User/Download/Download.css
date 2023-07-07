@@ -1,0 +1,37 @@
+.download {
+    background-color: gray;
+
+    padding-top: 2rem;
+}
+
+.download > .mainBox {
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    padding: 2rem;
+    position: relative;
+    height: 180vh;
+}
+
+.rowHeader {
+    display: flex;
+    
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.rowFooter {
+    display: flex;
+    width: 120vh;
+    border-top: 1px solid black;
+    position: absolute;
+    bottom: 0px;
+    padding: 2rem;
+}
+.image{
+    border: 1px solid black;
+    width: 10rem;
+    height: 12rem;
+}
+.icmtab{
+    border: 1px solid black;
+}

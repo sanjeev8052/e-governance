@@ -1,0 +1,31 @@
+.Box2 {
+    font-family: sans-serif;
+    margin: auto;
+    display: flex;
+    width: 60%;
+    padding: 0;
+    align-items: center;
+}
+.cForm {
+
+    background-color: white;
+    box-shadow: 3px 3px 6px;
+    /* height: 30rem; */
+    width: 90%;
+    margin-left: 10rem;
+    padding: 2rem 3rem 3rem 13rem;
+    border-radius: 5px;
+
+}
+.cInfo {
+
+    background-image: linear-gradient(to top right ,rgb(48, 94, 234),rgb(214, 245, 214));
+    box-shadow: 3px 3px 6px;
+    height: 26rem;
+    margin-left: 2rem;
+    position: absolute;
+    padding: 2rem;
+    width: 20%;
+    border-radius: 5px;
+
+}

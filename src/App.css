@@ -1,0 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.App{
+  background-image: linear-gradient(to top right ,rgb(48, 94, 234),rgb(214, 245, 214));
+ 
+}

@@ -1,0 +1,53 @@
+.box {
+    width: 98.9vw;
+    height: 50vh;
+    padding-top: 10rem;
+    background-image: linear-gradient(to top right ,rgb(48, 94, 234),rgb(214, 245, 214));
+}
+.main {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 3px 3px 6px;
+    margin: auto;
+
+}
+#details {
+    display: flex;
+    flex-direction: column;
+}
+.img {
+    display: block;
+    width: 12rem;
+   
+    border-radius: 30px;
+    box-shadow: 3px 3px 6px;
+}
+input::file-selector-button {
+    visibility: hidden;
+}
+
+.input-upload {
+    color: transparent;
+}
+
+.input-upload::before {
+    content: "Add Proof Id";
+    display: block;
+    width: 50%;
+    background-image: linear-gradient(to top right ,rgb(48, 94, 234),rgb(214, 245, 214));
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    cursor: pointer;
+    color: black;
+    text-align: center;
+    margin: 0 0 0 auto;
+}
+
+.profileBox {
+    display: flex;
+    flex-direction: column;
+    padding-right: 5rem;
+}
